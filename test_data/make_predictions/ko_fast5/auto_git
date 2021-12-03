@@ -1,0 +1,10 @@
+for n in {7..9};do 
+	cp -a ../../../../test_data/make_predictions/ko_fast5/batch_${i}* .
+	git add . --all
+	git commit -m "add ko_batch fast5"
+	git push -u origin main
+done 
+
+
+
+
